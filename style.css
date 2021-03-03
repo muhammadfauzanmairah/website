@@ -18,13 +18,32 @@ a{
 ul li{
   display: inline-block;
   list-style-type: none;
+  vertical-align: top;
   margin: 30px;
 }
 
-ul {background-color: gainsboro;}
+ul {
+  background-color: gainsboro;
+  position: relative;
+}
 
 h1{
   text-align: right;
   color: gainsboro;
 
+}
+
+ul li ul{
+display: none;
+position: absolute;
+}
+
+ul li ul li{
+  display: block;
+}
+
+
+ul li:hover ul{
+  display: block;
+  margin:
 }
