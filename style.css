@@ -1,50 +1,30 @@
-h1{
-  color:brown;
-  font-size: 64px;
-  font-family: georgia;
-  background-color: pink;
-  font-style: bold;
-}
-h3{
-  color: brown;
-  font-size:50px;
-  font-family: georgia;
-  background-color: pink;
-  font-style: bold;
-}
-
-
-
-
-
-
 body{
-  background-color: grey;
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+div{
+  float: right;
+}
 
-#nav{
-
-  background-color: WHITE;
-  font-size: 20px;
-  font-family: sans-serif;
-
-}
-#nav li{
-  background-color: pink;
-  display: inline-block;
-  padding: 20px;
-  margin: 10px;
-}
-ul{
-  background-color: white;
-  font-size: 20px;
-  font font-family: sans-serif;
-}
-p{
-  background-color: white;
-}
-ul li a {
-  color: white;
+a{
   text-decoration: none;
+  color: black;
+  display: inline;
+  font-size: 20px;
+}
+
+ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 30px;
+}
+
+ul {background-color: gainsboro;}
+
+h1{
+  text-align: right;
+  color: gainsboro;
+
 }
